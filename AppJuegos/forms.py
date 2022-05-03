@@ -2,7 +2,7 @@ from django import forms
 
 class JuegoFormulario(forms.Form):
     nombre=forms.CharField()
-    fechaLanzamiento=forms.DateField(label="Fecha de lanzamiento")
+    fechaLanzamiento=forms.DateField(label="Fecha de lanzamiento",help_text="MM/DD/AAAA")
     compania=forms.CharField(label="Compañía")
     copiasCreadas=forms.IntegerField(label="Copias creadas")
     genero=forms.CharField(label="Género")
