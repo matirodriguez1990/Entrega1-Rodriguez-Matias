@@ -1,10 +1,16 @@
 # Entrega1-Rodriguez-Matias
 
-Usuario super admin:
-Nombre: profesor
-Contraseña: Pass.1234
+Usuario super admin de http://localhost:8000/admin:
+- User: profesor
+- Pass: Pass.1234
 
 A continuación, se detallan los pasos para probar la aplicación (en todo momento se puede hacer click en el logo de "BlogGmaes" para volver a la página de inicio):
+
+# Paso 0: Iniciar aplicación
+
+1) Descargar la aplicación mediante el git clone.
+2) Por línea de comando ir hasta la carpeta descargada, y ejecutar "python manage.py runserver".
+3) Ingresar, mediante un browser a la siguiente URL: http://localhost:8000/AppJuegos
 
 # Paso 1: Juegos
 
